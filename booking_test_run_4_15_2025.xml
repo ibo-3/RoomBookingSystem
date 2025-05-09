@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R1</id>
+	<name>Booking Test Run 4/15/2025</name>
+	<description></description>
+	<config></config>
+	<createdon>2025-04-15T21:28:18Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>81</percent>
+			<count>29</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>8</percent>
+			<count>3</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>11</percent>
+			<count>4</count>
+		</failed>
+																																																				</stats>	<sections>
+	<section>
+		<name>Homepage UI</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T1</id>
+				<title>Verify that the website logo displays correctly on the homepage.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the homepage</preconds>
+															<steps>
+1. Open the website homepage in a browser</steps>
+															<expected>Website logo is visible and displayed correctly in the header</expected>
+									</custom>
+												<caseid>C1</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:30:16Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T2</id>
+				<title>Verify that the &quot;Book this room&quot; button on the homepage navigates to the booking page.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the homepage</preconds>
+															<steps>1. Locate the &quot;Book this room&quot; button
+
+2. Click on the button
+
+</steps>
+															<expected>User is redirected to the booking page</expected>
+									</custom>
+												<caseid>C2</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:30:39Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T3</id>
+				<title>Verify that footer links (Privacy Policy) navigate to the respective pages.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the homepage
+
+</preconds>
+															<steps>1. Scroll to the footer of the page
+
+2. Click on the “Privacy Policy” link</steps>
+															<expected>User is redirected to the Privacy Policy page</expected>
+									</custom>
+												<caseid>C4</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:31:00Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T4</id>
+				<title>Verify that the homepage is responsive on desktop, tablet, and mobile devices.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Access to various devices or browser dev tools</preconds>
+															<steps>1. Open the homepage on different device sizes or simulate using developer tools</steps>
+															<expected>Homepage layout and content adjust appropriately to each screen size</expected>
+									</custom>
+												<caseid>C5</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:32:52Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T5</id>
+				<title>Verify that the layout of homepage UI elements remains consistent across browsers.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Supported browsers installed (Chrome, Firefox, Safari, Edge)
+
+</preconds>
+															<steps>1. Open the homepage in each browser
+
+2. Compare the layout and functionality
+
+</steps>
+															<expected>The UI layout appears consistently and functions correctly in all browsers</expected>
+									</custom>
+												<caseid>C6</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:33:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+	<section>
+		<name>Room Browsing</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T6</id>
+				<title>Verify that the room catalog displays a list of available rooms with basic details (room type).</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds> User is on the room catalog page</preconds>
+															<steps>1. Navigate to the room catalog page.
+
+2. Observe the list of displayed rooms</steps>
+															<expected>Each room in the list displays room type</expected>
+									</custom>
+												<caseid>C7</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:42:50Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T7</id>
+				<title>Verify that the room catalog displays a list of available rooms with basic details (image).</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the room catalog page
+
+</preconds>
+															<steps>1. Navigate to the room catalog page.
+
+2. Observe the list of displayed rooms.</steps>
+															<expected>Each room in the list displays image</expected>
+									</custom>
+												<caseid>C8</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:42:53Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																																																																																														<test>
+				<id>T8</id>
+				<title>Verify that the room catalog displays a list of available rooms with basic details (description).</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the room catalog page</preconds>
+															<steps>1. Navigate to the room catalog page.
+
+2. Observe the list of displayed rooms.</steps>
+															<expected>Each room in the list displays  short description.</expected>
+									</custom>
+												<caseid>C9</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Failed</status>
+																<assignedto>ibrahim gn</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-8, https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-8</defects>
+																<changes>
+															<change>
+						<createdon>2025-04-21T14:07:33Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+																								<assignedto>ibrahim gn</assignedto>
+																		<comment>Room description is not in English on the Room page
+
+</comment>
+																		<version>1.8</version>
+																														<elapsed></elapsed>
+																														<defects>https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-8</defects>
+																													</change>
+															<change>
+						<createdon>2025-04-21T14:03:15Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects>https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-8</defects>
+																													</change>
+															<change>
+						<createdon>2025-04-21T14:00:34Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-21T14:00:05Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status></status>
+																								<assignedto>ibrahim gn</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-17T14:11:23Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status></status>
+												<assignedto></assignedto>
+												<comment>Room description is not in English on the Room page</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:43:00Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T9</id>
+				<title>Verify that pagination works correctly in the room catalog.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>More rooms than one page limit (10 rooms)</preconds>
+															<steps>1. Scroll to the bottom of the room catalog.
+
+2. Click “Next” or a numbered page link.</steps>
+															<expected>New set of room listings is loaded; the current page indicator updates.</expected>
+									</custom>
+												<caseid>C10</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:43:21Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T10</id>
+				<title>Verify that filtering rooms by type (Single) displays appropriate results.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Filter options are available on the catalog page</preconds>
+															<steps>Select a room type filter (“Single”).
+
+Apply the filter.</steps>
+															<expected>Only rooms of the selected type are displayed.
+</expected>
+									</custom>
+												<caseid>C11</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:43:31Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T11</id>
+				<title>Verify that filtering rooms by type (Double) displays appropriate results.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C12</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:43:35Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T12</id>
+				<title>Verify that room images load correctly and with proper resolution</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Rooms have associated images</preconds>
+															<steps>1. Navigate to the room catalog.
+
+2. Observe images for several rooms.</steps>
+															<expected>All room images are displayed clearly, with no broken or low-resolution images.</expected>
+									</custom>
+												<caseid>C13</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:43:56Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T13</id>
+				<title>Verify that each room listing shows availability status</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Rooms have up-to-date availability data</preconds>
+															<steps>1. Navigate to the room catalog.
+
+2. Look at the availability label or tag on each room.
+
+</steps>
+															<expected> Each room clearly displays whether it is available or booked.</expected>
+									</custom>
+												<caseid>C14</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+	<section>
+		<name>Room Booking</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T14</id>
+				<title>Verify that the room booking calendar displays available dates correctly.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Room availability is pre-configured</preconds>
+															<steps>1.  Navigate to the booking page.
+
+2. View the calendar.</steps>
+															<expected>Available dates are enabled and visually distinct from unavailable dates.</expected>
+									</custom>
+												<caseid>C16</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:44:48Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T15</id>
+				<title>Verify that the user can select available dates on the booking calendar.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking calendar is displayed with available dates</preconds>
+															<steps>1. Click on an available check-in date.
+
+2. Click on a valid check-out date.
+
+</steps>
+															<expected>Selected dates are highlighted and registered in the form</expected>
+									</custom>
+												<caseid>C17</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:44:51Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																																		<test>
+				<id>T16</id>
+				<title>Verify that the system prevents booking on unavailable dates.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Some dates are marked as unavailable</preconds>
+															<steps>1. Try selecting an unavailable or disabled date.
+
+</steps>
+															<expected>System blocks selection and optionally displays tooltip or message.
+
+</expected>
+									</custom>
+												<caseid>C18</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:09:26Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:45:00Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T17</id>
+				<title>Verify that the booking form accepts valid guest information.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking form is visible</preconds>
+															<steps>1. Fill in guest name, valid email, and phone number.
+
+2. Submit the form.
+
+</steps>
+															<expected>Form submits without validation errors</expected>
+									</custom>
+												<caseid>C19</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:48:51Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T18</id>
+				<title>Verify that the booking form validates required fields (guest name, email).</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking form is accessible</preconds>
+															<steps>1. Leave guest name and email empty.
+
+2. Click submit.
+
+</steps>
+															<expected>Validation messages appear under required fields</expected>
+									</custom>
+												<caseid>C20</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:05:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T19</id>
+				<title>Verify that the user can select a room type during the booking process.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>At least two room types are available</preconds>
+															<steps>1. Select a room type from the dropdown or list.
+
+</steps>
+															<expected>Selected room type appears in the booking summary</expected>
+									</custom>
+												<caseid>C21</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T20</id>
+				<title>Verify that a booking summary displays the selected room and dates accurately.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User has selected dates and room type</preconds>
+															<steps>1. Scroll to the booking summary area.
+
+
+</steps>
+															<expected>Summary reflects correct room type, check-in, and check-out</expected>
+									</custom>
+												<caseid>C22</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:07:36Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T21</id>
+				<title>Verify that the booking form allows modification of booking details before submission.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking form is filled with initial data</preconds>
+															<steps>1. Edit dates or guest info.
+
+1. Review the updated summary.
+
+</steps>
+															<expected>Changes are reflected immediately</expected>
+									</custom>
+												<caseid>C23</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:09:57Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T22</id>
+				<title>Verify that a booking can be successfully submitted and a confirmation page is displayed.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking form is filled with valid data</preconds>
+															<steps>Click “Book Now”
+</steps>
+															<expected>Confirmation page displays with booking ID and summary</expected>
+									</custom>
+												<caseid>C24</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:10:08Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:18Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T23</id>
+				<title>Verify that a booking confirmation email is simulated successfully.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>System supports simulated email delivery</preconds>
+															<steps>1. Complete a booking with a valid email.
+
+</steps>
+															<expected>simulated confirmation email is triggered (or logged)</expected>
+									</custom>
+												<caseid>C25</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:10:25Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																				<test>
+				<id>T24</id>
+				<title>Verify that the booking cancellation process via the user account functions as expected.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds> User is logged in and has an active booking</preconds>
+															<steps>1. Navigate to “My Bookings”.
+
+2. Click “Cancel Booking”.
+
+</steps>
+															<expected>Booking status updates to “Cancelled</expected>
+									</custom>
+												<caseid>C26</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T25</id>
+				<title>Verify that error messages are displayed when invalid booking data is entered.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Booking form is open</preconds>
+															<steps>1. Enter invalid email or incomplete data.
+
+2. Submit form.
+
+</steps>
+															<expected>Proper error messages are shown next to invalid fields</expected>
+									</custom>
+												<caseid>C27</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T10:02:38Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T26</id>
+				<title>Verify that the system correctly handles simultaneous booking attempts.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Two users try to book the same room/date at the same time</preconds>
+															<steps>1.Submit both forms simultaneously.</steps>
+															<expected>One booking succeeds; the other receives an availability error</expected>
+									</custom>
+												<caseid>C28</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T10:02:05Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T27</id>
+				<title>Verify that the booking form is responsive and works on mobile devices.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User accesses the form on a mobile screen</preconds>
+															<steps>1.Navigate to booking page on mobile or emulate mobile in browser.
+
+</steps>
+															<expected>Layout adapts, form remains functional and readable</expected>
+									</custom>
+												<caseid>C29</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:14:07Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+	<section>
+		<name>Contact Form</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T28</id>
+				<title>Verify that the contact form loads correctly on the website.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>User is on the &quot;Contact Us&quot; form</preconds>
+															<steps>1. Navigate to the Contact Form.
+
+</steps>
+															<expected>Contact form displays without layout or loading issues</expected>
+									</custom>
+												<caseid>C30</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:14:25Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T29</id>
+				<title>Verify that all required fields (name, email, message,phone) are present in the contact form.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Contact form is visible</preconds>
+															<steps>1. Observe the fields on the form.
+</steps>
+															<expected> Fields for Name, Email, Phone, and Message are present and marked as required</expected>
+									</custom>
+												<caseid>C31</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:14:36Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T30</id>
+				<title>Verify that entering valid input in the contact form is accepted.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Contact form is loaded</preconds>
+															<steps>1. Fill in all fields with valid data.
+
+2. Submit the form.
+
+</steps>
+															<expected>Form is submitted without errors</expected>
+									</custom>
+												<caseid>C32</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:15:37Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T31</id>
+				<title>Verify that leaving a required field empty triggers a validation error.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Contact form is visible</preconds>
+															<steps>1. Leave one required field (e.g., email) empty.
+
+2. Submit the form.
+
+</steps>
+															<expected>Error message appears indicating the field is required</expected>
+									</custom>
+												<caseid>C33</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:16:57Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																																																																<test>
+				<id>T32</id>
+				<title>Verify that the email field validates the correct email format.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Contact form is open</preconds>
+															<steps>1.Enter an invalid email (example@gmail.com) 
+
+2. and submit</steps>
+															<expected>Email field triggers validation error about invalid format</expected>
+									</custom>
+												<caseid>C34</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Failed</status>
+																<assignedto>ibrahim gn</assignedto>
+																<inprogress></inprogress>
+																																																																														<defects>https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-9, Room description is not in English on the Room page</defects>
+																<changes>
+															<change>
+						<createdon>2025-04-21T14:09:31Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+																								<assignedto>ibrahim gn</assignedto>
+																		<comment></comment>
+																		<version>1.8</version>
+																														<elapsed></elapsed>
+																														<defects>https://ibosite.atlassian.net/jira/software/projects/CPG/boards/1?selectedIssue=CPG-9</defects>
+																													</change>
+															<change>
+						<createdon>2025-04-21T14:08:29Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+																								<assignedto>ibrahim gn</assignedto>
+																		<comment></comment>
+																		<version>1.8</version>
+																														<elapsed></elapsed>
+																														<defects>Room description is not in English on the Room page</defects>
+																													</change>
+															<change>
+						<createdon>2025-04-17T14:12:26Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status></status>
+												<assignedto></assignedto>
+												<comment>Email field does not validate incorrect email format</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-16T08:18:20Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T33</id>
+				<title>Verify that a message can be successfully submitted through the contact form.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Contact form is filled with valid data</preconds>
+															<steps>1.Submit the form.
+
+</steps>
+															<expected>The message is sent successfully and backend/API responds with success status</expected>
+									</custom>
+												<caseid>C35</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:18:38Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T34</id>
+				<title>Verify that a confirmation message is displayed upon successful submission of the contact form.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Valid message submitted</preconds>
+															<steps>1. Submit the form with correct data.</steps>
+															<expected>A “Thank you” or confirmation message appears on the page</expected>
+									</custom>
+												<caseid>C36</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:19:08Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T35</id>
+				<title>Verify that the contact form displays correctly on mobile devices.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>Access website using a mobile browser</preconds>
+															<steps>1. Navigate to Contact page.</steps>
+															<expected>Form is responsive and elements are readable and aligned</expected>
+									</custom>
+												<caseid>C37</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:19:14Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T36</id>
+				<title>Verify that an error message is displayed when the contact form submission fails due to network issues.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<preconds>imulate a network failure or disable internet temporarily</preconds>
+															<steps>1. Submit the form with valid data while offline.
+
+</steps>
+															<expected>Error message like “Submission failed. Please try again later” appears</expected>
+									</custom>
+												<caseid>C38</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+																	<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-04-16T08:19:23Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-04-15T21:28:19Z</createdon>
+																		<createdby>ibrahim gn</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
